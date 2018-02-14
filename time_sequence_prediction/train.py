@@ -8,6 +8,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
+
+
 class Sequence(nn.Module):
     def __init__(self):
         super(Sequence, self).__init__()
